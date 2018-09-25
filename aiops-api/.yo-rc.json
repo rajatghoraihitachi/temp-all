@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.hitachi.aiops",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "microservice",
+    "baseName": "aiopsapi",
+    "packageName": "com.hitachi.aiops",
+    "packageFolder": "com/hitachi/aiops",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "ZTlmNGNjZjcxN2M3MWYxMzBlN2VlOTM2YjU4ZTA0ZTMyYWE1ZWFlMTQxY2I0YzZlOTM0MzE0MjE1NWQyY2RkMjQxNzEzYmE0NzZmOWM1MmY1ZDg4NGU3NzA2NTdjZjAwOTU1OTVkYjFkNzc1NjUxZDg3YzA2NTMzODg0NzFiNDc=",
+    "enableTranslation": true,
+    "languages": [
+      "en"
+    ],
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

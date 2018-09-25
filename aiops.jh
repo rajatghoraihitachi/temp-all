@@ -1,0 +1,10 @@
+entity Situation{
+	name String
+    type String
+}
+
+microservice * with aiopsapi
+paginate * with infinite-scroll	
+dto * with mapstruct
+service all with serviceImpl
+angularSuffix * with aiops

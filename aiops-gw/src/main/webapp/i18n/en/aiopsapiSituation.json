@@ -1,0 +1,28 @@
+
+{
+    "aiopsgwApp": {
+        "aiopsapiSituation" : {
+            "home": {
+                "title": "Situations",
+                "createLabel": "Create a new Situation",
+                "createOrEditLabel": "Create or edit a Situation",
+                "search": "Search for Situation"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Situation {{ id }}?"
+            },
+            "detail": {
+                "title": "Situation"
+            },
+            "name": "Name",
+            "type": "Type"
+        }
+    },
+    "aiopsapiApp": {
+        "aiopsapiSituation" : {
+            "created": "A new Situation is created with identifier {{ param }}",
+            "updated": "A Situation is updated with identifier {{ param }}",
+            "deleted": "A Situation is deleted with identifier {{ param }}"
+        }
+    }
+}

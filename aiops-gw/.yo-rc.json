@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.hitachi.aiops",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "gateway",
+    "baseName": "aiopsgw",
+    "packageName": "com.hitachi.aiops",
+    "packageFolder": "com/hitachi/aiops",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTMxMDcxOTgzM2Y2YTA4ZjU0NGVhYjIxNTA1YWMwYjE4ZWQyNTE0NmQwMjIyMTI2MTJhYjAyZWQ1ZjIwYTM0ZmRhZGRjNDAwMWZmZTY3OWNiOTJjMWZhMGQ5ZDIzNTU3NDk3ZjY1MWI5NmExZGQ3NTI1NTNiZmZjODU3ZWEyYjA=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ]
+  }
+}
